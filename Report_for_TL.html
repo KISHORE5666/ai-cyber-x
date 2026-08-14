@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-CYBER-X Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #000000;
+            line-height: 1.5;
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+        h1 {
+            text-align: center;
+            color: #1a365d;
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #4a5568;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #1a365d;
+            font-size: 20px;
+            border-bottom: none;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        .component-title {
+            color: #4a5568;
+            font-size: 16px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #e2e8f0;
+            margin: 20px 0;
+        }
+        table.meta-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+        table.meta-table td {
+            padding: 8px 0;
+            vertical-align: top;
+        }
+        table.meta-table td:first-child {
+            width: 25%;
+            font-weight: bold;
+        }
+        p {
+            margin-bottom: 15px;
+            color: #1a202c;
+        }
+        ul {
+            margin-top: 0;
+            margin-bottom: 15px;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .bullet-point {
+            list-style-type: disc;
+        }
+        .dashboard-img {
+            width: 100%;
+            max-width: 800px;
+            border: 1px solid #e2e8f0;
+            margin: 20px 0;
+            display: block;
+        }
+        .image-placeholder {
+            width: 100%;
+            height: 200px;
+            background-color: #f7fafc;
+            border: 2px dashed #cbd5e0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #718096;
+            margin: 20px 0;
+            font-style: italic;
+        }
+        .footer-note {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+            font-size: 12px;
+            color: #718096;
+        }
+        
+        /* Stats Table Styling */
+        table.data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+        table.data-table th, table.data-table td {
+            border: 1px solid #e2e8f0;
+            padding: 10px;
+            text-align: left;
+        }
+        table.data-table th {
+            background-color: #1a365d;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>AI-CYBER-X</h1>
+    <div class="subtitle">Enterprise Security OS &mdash; Live Monitoring Platform</div>
+
+    <h2>Phase 2 &ndash; Zero Trust &amp; Threat Telemetry</h2>
+    <div class="component-title">Progress Summary &mdash; Executive &amp; Identity Dashboards</div>
+    
+    <hr>
+
+    <table class="meta-table">
+        <tr>
+            <td>Submitted by:</td>
+            <td>Kishore &mdash; Admin &bull; SOC Lead</td>
+        </tr>
+        <tr>
+            <td>Project:</td>
+            <td>AI-CYBER-X &mdash; Enterprise AI-Powered Cyber Security OS</td>
+        </tr>
+        <tr>
+            <td>Phase:</td>
+            <td>Phase 2 &ndash; Zero Trust Architecture &amp; Threat Monitoring</td>
+        </tr>
+        <tr>
+            <td>Component covered:</td>
+            <td>Zero Trust Identity Management &amp; Executive Dashboard (v2.4.1)</td>
+        </tr>
+        <tr>
+            <td>Status:</td>
+            <td>In Progress &mdash; live production telemetry actively monitored</td>
+        </tr>
+    </table>
+
+    <h2>Overview</h2>
+    <p>Phase 2 of AI-CYBER-X covers identity management, zero trust enforcement, and high-level threat telemetry visualization. This report covers real, working progress on two core visualization components of that scope &mdash; the <strong>Zero Trust Identity &amp; Access Management</strong> module and the <strong>Executive Security Dashboard</strong>.</p>
+    <p>Rather than reporting only design intentions, this document describes the live dashboards actively monitoring our enterprise environment, correlating real-time events from the SIEM platform, AI Threat Detection, and Identity providers into a single operational view.</p>
+
+    <h2>Objective of These Components</h2>
+    <ul>
+        <li class="bullet-point">Ingest real-time identity telemetry (RBAC, ABAC, MFA, SSO, Geo-Fencing) to provide a centralized view of user risk and access policies.</li>
+        <li class="bullet-point">Surface active threats, blocked threats, and AI detections across 7 ML models into an executive-level summary.</li>
+        <li class="bullet-point">Monitor critical endpoint health, open vulnerabilities, and cloud environment findings.</li>
+        <li class="bullet-point">Correlate User Behavior Analytics (UBA) anomalies to automatically flag or suspend high-risk users.</li>
+    </ul>
+
+    <h2>Design and Architecture</h2>
+    <p>The platform is structured as modular dashboard views feeding from a common telemetry pipeline.</p>
+    
+    <p><strong>1. Zero Trust Identity &amp; Access Management</strong></p>
+    <p>Enforces Phase 2 Zero Trust Architecture. It evaluates real-time risk scores and applies automated policies such as geo-blocks and session flagging.</p>
+    
+    <!-- INSTRUCTION TO USER: Replace the src attribute with your actual image filename -->
+    <div class="image-placeholder">
+        [Insert "Zero Trust Dashboard" image here. If editing HTML, add: &lt;img src="your-image1.png" class="dashboard-img"&gt;]
+    </div>
+
+    <p><strong>2. Executive Security Dashboard</strong></p>
+    <p>Aggregates telemetry across the enterprise, visualizing events per second, unpatched vulnerabilities, and a 24-hour threat timeline to track cyclical peaks in threat activity.</p>
+    
+    <!-- INSTRUCTION TO USER: Replace the src attribute with your actual image filename -->
+    <div class="image-placeholder">
+        [Insert "Executive Security Dashboard" image here. If editing HTML, add: &lt;img src="your-image2.png" class="dashboard-img"&gt;]
+    </div>
+
+    <h2>Live Environment Status (Telemetry Snapshot)</h2>
+    <p>The dashboards are currently processing live telemetry with the following key metrics observed:</p>
+    
+    <table class="data-table">
+        <tr>
+            <th>Metric</th>
+            <th>Value</th>
+        </tr>
+        <tr>
+            <td>Total Identity Users</td>
+            <td>284 (91% MFA Enabled)</td>
+        </tr>
+        <tr>
+            <td>Active Threats</td>
+            <td>232 (+12 in last hour, Elevated Threat Level)</td>
+        </tr>
+        <tr>
+            <td>Threats Blocked Today</td>
+            <td>2,341</td>
+        </tr>
+        <tr>
+            <td>AI Detections</td>
+            <td>2,847 (7 ML models running)</td>
+        </tr>
+        <tr>
+            <td>SIEM Events/Sec</td>
+            <td>12,841 (Normalized &amp; correlated)</td>
+        </tr>
+        <tr>
+            <td>Endpoints Monitored</td>
+            <td>6 (5 healthy &bull; 1 critical)</td>
+        </tr>
+    </table>
+
+    <h2>Investigative Read of the Telemetry</h2>
+    <p>The current telemetry reflects an elevated threat posture. A correlation between the UBA anomalies (5 users under watch) and the Zero Trust module shows specific users being actively managed by the system. For instance, user <strong>John Smith</strong> (Risk: 85) has been flagged, and <strong>Kevin Patel</strong> (Risk: 92) has been automatically suspended by access policies. The 24-hour timeline indicates ongoing, contained attacks, demonstrating the effectiveness of the SOAR automation pipeline.</p>
+
+    <h2>Current Limitations</h2>
+    <ul>
+        <li class="bullet-point">Endpoint monitoring is currently limited to 6 nodes during the initial deployment phase.</li>
+        <li class="bullet-point">The Threat Severity chart currently visualizes only Critical (43) and High (189) threats, omitting lower-tier context.</li>
+    </ul>
+
+    <h2>Risks / Open Items</h2>
+    <ul>
+        <li class="bullet-point">3 critical vulnerabilities remain unpatched across the monitored environment.</li>
+        <li class="bullet-point">2 critical cloud exposures require immediate remediation by the cloud security team.</li>
+    </ul>
+
+    <h2>Next Steps</h2>
+    <ul>
+        <li class="bullet-point">Expand endpoint monitoring deployment (EDR) beyond the initial 6 nodes to cover the broader network.</li>
+        <li class="bullet-point">Complete patching and remediation of the 3 critical vulnerabilities and cloud exposures.</li>
+        <li class="bullet-point">Integrate lower-severity threat telemetry into the executive severity chart for comprehensive context.</li>
+    </ul>
+
+    <div class="footer-note">
+        This report reflects an actual working dashboard deployed in the live monitoring environment; the corresponding user interfaces accompany this report for review.
+    </div>
+
+</body>
+</html>
