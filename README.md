@@ -1,4 +1,4 @@
-# 🛡️ AI-CYBER-X Enterprise Security OS
+# AI-CYBER-X Enterprise Security OS
 
 [![Next.js](https://img.shields.io/badge/Frontend-Next.js%2016-black?style=for-the-badge&logo=nextdotjs)](https://nextjs.org/)
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
@@ -9,9 +9,9 @@
 
 The application is structured as a responsive Next.js frontend paired with a modular FastAPI backend simulated engine, ready for deployment in virtualized or containerized infrastructure.
 
----
 
-## 🚀 Key Modules & Capabilities
+
+## Key Modules & Capabilities
 
 The platform implements 15 critical operational phases for enterprise-wide threat tracking and mitigation:
 
@@ -33,7 +33,7 @@ The platform implements 15 critical operational phases for enterprise-wide threa
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 ### Frontend
 * **Core**: [Next.js](https://nextjs.org/) (v16.2.12), [React](https://react.dev/) (v19.2.4), [TypeScript](https://www.typescriptlang.org/)
@@ -49,7 +49,7 @@ The platform implements 15 critical operational phases for enterprise-wide threa
 
 ---
 
-## 📦 Infrastructure (Docker Compose)
+##  Infrastructure (Docker Compose)
 
 For production environments, the platform is designed to scale with a comprehensive container topology defined in `docker-compose.yml`:
 * **Databases**: PostgreSQL (Relational & Core), MongoDB (Threat Intelligence Document Store), Neo4j (Attack Graph Network Engine).
@@ -60,7 +60,7 @@ For production environments, the platform is designed to scale with a comprehens
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 * [Node.js](https://nodejs.org/) (v22.x or later)
@@ -108,6 +108,5 @@ docker compose up -d
 
 ---
 
-## 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
 
